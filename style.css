@@ -1,0 +1,85 @@
+*{
+    margin:0px;
+    padding: 0px;
+    
+header{
+    height: 60px;
+    background-color: black;
+    text-align: center;
+    color: white;
+   
+}  
+h2{
+    position: relative;
+    top:15px;
+     background: url("/title.jpg");
+     background-size: cover;
+     background-clip: text;
+     color: transparent;
+     transition: all 1S ease-in 0S;
+} 
+h2:hover{
+    transform: scale(2opx);
+    font-size: larger;
+    color:aquamarine
+    
+}
+}
+.nevibar{
+    height: 50px;
+    border:2px solid rgb(175, 12, 12);
+    background-color: rgb(167, 218, 239);
+    opacity: 80%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    
+    
+}
+.nev{
+     margin: 50px;  
+     text-decoration: none;
+     color:black;
+}
+.nev:hover{
+    border: 3px solid rgb(172, 59, 125);
+}
+body{
+    background-image: url("/background.jpg");
+    background-size: cover;
+}
+.cont{
+    height: 500px;
+    width: 900px;
+    display: grid;
+    grid:1fr 1fr/2fr 1fr 1fr;
+    background-color: transparent;
+    grid-gap: 70px;
+    position: relative;
+    top:50px;
+    left:250px
+    
+}
+.box{
+    height: 250px;
+    width: 300px;
+    text-decoration: none;
+    border: 2px solid yellowgreen;
+    background-color: burlywood;
+    border-radius: 20px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    transition: all 1S ease-in 0S;
+   
+    
+    
+}
+.box:hover{
+    background-color: rgb(179, 131, 223);
+     height: 280px;
+    width: 340px;
+    border: 6px solid yellow;
+    
+}
+
